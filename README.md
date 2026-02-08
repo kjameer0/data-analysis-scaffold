@@ -4,12 +4,13 @@ This project provides a basic and evolvable scaffold for analysis of `.csv` file
 
 ## Get started
 
-[Sample data about trees in NYC](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh/about_data)
+[Sample data about trees in NYC](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh/about_data). You can click export on this webpage to get sample CSV data.
 
-1. Copy and paste `.csv` file into `data-files/` folder
-2. Open new VSCode Terminal
-3. run `./setup.sh`
-4. run `./run.sh` to run the main program
+1. Create a folder called `data-files` by running `mkdir data-files` in the Terminal
+2. Copy and paste the `.csv` file you want to work with into the `data-files/` folder
+3. Open new VSCode Terminal
+4. run `./setup.sh` in your terminal by copying and pasting `./setup.sh` into the terminal and pressing Enter.
+5. run `./run.sh` to run the main program(make sure to open `main.py` and make sure the `csv_file` variable contains the correct path to your csv data file)
 
 ## Roles for different folders and files
 
