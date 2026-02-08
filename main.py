@@ -5,7 +5,7 @@ import pandas as pd
 csv_file = "data-files/trees.csv"
 
 
-def load_trees_dataframe():
+def load_dataframe():
     df = pd.read_csv(csv_file, nrows=1000)
     return df
 
@@ -17,5 +17,5 @@ def count_boroughs(df: pd.DataFrame):
 
 if __name__ == "__main__":
     print("Starting analysis")
-    trees_df = load_trees_dataframe()
+    trees_df = load_dataframe()
     print("Total boroughs in NYC: ", count_boroughs(trees_df))
