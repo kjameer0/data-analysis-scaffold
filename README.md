@@ -22,3 +22,8 @@ This project provides a basic and evolvable scaffold for analysis of `.csv` file
 
 1. Add new test data to test suites in `test/conftest.py`
 2. Group tests by behavior/logic you want to test together
+
+## Snowflake
+
+If you exported data with "Download results from stage" you can take the file path that Snowflake gives you and run:
+`gunzip -c <snowflake-data-path> > <target-path>` to put the data where you need it.
